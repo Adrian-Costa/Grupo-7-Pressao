@@ -1,0 +1,12 @@
+
+#header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 25px 50px;
+}
+
+#header_logo{
+    width: 150px;
+}
