@@ -1,6 +1,20 @@
 
 body{
     background-color: rgb(225, 225, 225);
-    color: white;
     font-family: "Ablation",Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 1em;
+    font-family: "GlacialIndifference";
+}
+
+span{
+    font-size: 1em;
+    font-family: "GlacialIndifference";
+}
+
+h1{
+    font-size: 2em;
+    font-family: "Ablation";
 }

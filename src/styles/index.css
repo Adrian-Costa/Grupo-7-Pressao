@@ -1,12 +1,25 @@
 
-#header_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: black;
-    padding: 25px 50px;
+@font-face {
+    font-family: "GlacialIndifference";
+    src: url("./../fonts/GlacialIndifference-Regular.otf") format(opentype);
+    font-weight: normal;
+    font-style: normal;
 }
 
-#header_logo{
-    width: 150px;
+@font-face {
+    font-family: "Ablation";
+    src: url("./../fonts/Ablation_PersonalUse.otf") format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header_container{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#logo_img{
+    width: 130px;
+    margin: 20px;
 }
