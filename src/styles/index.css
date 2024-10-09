@@ -14,8 +14,30 @@
 }
 
 #header_container{
-    display: flex;
-    justify-content: center;
     background-color: black;
     padding: 20px;
+}
+
+
+
+#image_container{
+    background-image: url(../assets/Empresa.jpg);
+    box-shadow: inset 0px 15px 10px rgba(0, 0, 0, 0.541);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#container_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.742);
+    width: 100%;
+    height: 500px;
+    padding: 20px 50px;
 }
