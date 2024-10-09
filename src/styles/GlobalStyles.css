@@ -11,10 +11,19 @@ p{
 
 span{
     font-size: 1em;
+    color: white;
     font-family: "GlacialIndifference";
 }
 
-h1{
-    font-size: 2em;
+h3{
+    font-size: 1.7em;
+    color: red;
     font-family: "Ablation";
+    margin-top: 10px;
+}
+
+h4{
+    font-size: 0.7em;
+    color: white;
+    font-family: "GlacialIndifference";
 }
