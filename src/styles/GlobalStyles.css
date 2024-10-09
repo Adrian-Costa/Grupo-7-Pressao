@@ -19,11 +19,12 @@ h3{
     font-size: 1.7em;
     color: red;
     font-family: "Ablation";
-    margin-top: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
 }
 
 h4{
-    font-size: 0.7em;
+    font-size: 0.63em;
     color: white;
     font-family: "GlacialIndifference";
 }

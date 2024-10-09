@@ -17,9 +17,5 @@
     display: flex;
     justify-content: center;
     background-color: black;
-}
-
-#logo_img{
-    width: 130px;
-    margin: 20px;
+    padding: 20px;
 }
