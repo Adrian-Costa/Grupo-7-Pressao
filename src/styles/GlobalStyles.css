@@ -1,40 +1,59 @@
 
 body{
+    color: white;
     background-color: rgb(225, 225, 225);
-    font-family: "Ablation",Arial, Helvetica, sans-serif;
+    font-family: "Ablation", Arial, Helvetica, sans-serif;
 }
 
 p{
-    color: white;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-family: "GlacialIndifference";
+    line-height: 24px;
+    margin: 30px 70px;
+    text-align: center;
 }
 
 span{
     font-size: 1em;
-    color: white;
-    font-family: "GlacialIndifference";
+    color: red;
+}
+
+hr{
+    height: 3px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(255, 0, 0, 0.475);
+    border: none;
 }
 
 h1{
-    color: red;
-    font-size: 2em;
+    font-family: "GlacialIndifference", Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 4em;
 }
 
 h2{
-    color: red;
-    font-size: 1.7em;
-    letter-spacing: 1.2px;
-    margin-bottom: 5px;
+    font-size: 1.9em;
+    font-weight: 100;
 }
 
 h3{
-    color: white;
-    font-size: 1.4em;
+    font-size: 1.7em;
+    font-weight: 600;
 }
 
 h4{
-    font-size: 0.63em;
-    color: white;
-    font-family: "GlacialIndifference";
+    font-size: 1.3em;
+    font-weight: 900;
+}
+
+h5{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+h6{
+    font-size: 1em;
+    font-weight: 300;
 }

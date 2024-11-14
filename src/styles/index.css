@@ -13,31 +13,84 @@
     font-style: normal;
 }
 
-#header_container{
-    background-color: black;
+header{
+    background-image: url(./../assets/Empresa-2.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    height: 95vh;
+    margin-bottom: 50px;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
 }
 
-
-
-#image_container{
-    background-image: url(../assets/Empresa.jpg);
-    box-shadow: inset 0px 15px 10px rgba(0, 0, 0, 0.541);
-    width: 100%;
-    height: 500px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+.blackFilter{
+    background-color: rgba(0, 0, 0, 0.536);
 }
 
-#container_info{
+.header_title{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.742);
-    width: 100%;
-    height: 500px;
+    gap: 20px;
+    height: 563px;
     padding: 20px 50px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navBar ul li{
+    width: 25px;
+    height: 25px;
+}
+
+.navBar ul li:hover{
+    background-color: red;
+    border-radius: 20px;
+    padding: 5px;
+    margin: -5px;
+    width: 35px;
+    height: 35px;
+}
+
+.logos{
+    width: 100%;
+    height: 100%;
+}
+
+/*-----------------------------------------------------------------*/
+
+main{
+    color: black;
+}
+
+.orçamento{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+
+.conhecimento{
+    background-color: rgb(131, 0, 0);
+    color: white;
+    padding: 50px 0px;
+}
+
+/*-----------------------------------------------------------------*/
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0px;
+    padding: 15px;
 }
