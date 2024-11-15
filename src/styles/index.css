@@ -1,3 +1,4 @@
+@charset "UTF-8";
 
 @font-face {
     font-family: "GlacialIndifference";
@@ -101,6 +102,7 @@ main{
 }
 
 /*-----------------------------------------------------------------*/
+
 footer{
     background-color: black;
     display: flex;
