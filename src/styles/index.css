@@ -17,7 +17,7 @@ header{
     background-image: url(./../assets/Empresa-2.jpg);
     background-position: center bottom;
     background-size: cover;
-    height: 95vh;
+    min-height: 95vh;
     margin-bottom: 50px;
 }
 
@@ -38,7 +38,7 @@ header{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    height: 563px;
+    min-height: 563px;
     padding: 20px 50px;
 }
 
@@ -74,9 +74,15 @@ main{
     color: black;
 }
 
-.orçamento{
+.orcamento{
     background-color: rgb(39, 39, 39);
     color: white;
+}
+
+.orcamento_img{
+    width: 450px;
+    border: 2px solid white;
+    border-radius: 15px;
 }
 
 .conhecimento{
