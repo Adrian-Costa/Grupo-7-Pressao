@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap');
+
 body{
     color: white;
     background-color: rgb(225, 225, 225);
-    font-family: "Ablation", Arial, Helvetica, sans-serif;
+    font-family: "Ruda", Arial, Helvetica, sans-serif;
 }
 
 p{
